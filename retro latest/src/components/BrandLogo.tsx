@@ -27,8 +27,8 @@ export default function BrandLogo({ inverse = false, className = "", title = "RE
         className={`brand-logo${inverse ? " brand-logo-inverse" : ""}${className ? ` ${className}` : ""}`}
         src={LOGO_SRC}
         alt={title}
-        width={980}
-        height={560}
+        width={1400}
+        height={800}
         decoding="async"
         onError={() => setFailed(true)}
       />
