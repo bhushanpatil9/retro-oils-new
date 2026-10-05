@@ -41,7 +41,7 @@ export default function BrandLogo({ inverse = false, className = "", title = "RE
   return (
     <svg
       className={`brand-logo${className ? ` ${className}` : ""}`}
-      viewBox="0 0 980 560"
+      viewBox="0 0 1400 800"
       role="img"
       aria-label={title}
       focusable="false"
