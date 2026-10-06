@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the reserved .example domain with the verified production domain before launch.
+Sitemap: https://retro-oils.example/sitemap.xml
